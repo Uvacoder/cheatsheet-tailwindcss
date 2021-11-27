@@ -39,7 +39,7 @@
     },
     "scripts": {
         "start": "SKIP_PREFLIGHT_CHECK=true craco start",
-        "build": "PUBLIC_URL=\"/cheatsheet-tailwind/\" SKIP_PREFLIGHT_CHECK=true craco build",
+        "build":" SKIP_PREFLIGHT_CHECK=true craco build",
         "postbuild": "rm -rf ../public/index.html",
         "test": "craco test"
     },
